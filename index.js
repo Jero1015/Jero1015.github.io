@@ -8,17 +8,16 @@ const btncare1 = document.getElementById("btncare1")
 const countcare1 = document.getElementById("countcare1")
 const btnangry1 = document.getElementById("btnangry1")
 const countangry1 = document.getElementById("countangry1")
+const btncare2 = document.getElementById("btncare2")
+const countcare2 = document.getElementById("countcare2")
+const btnangry2 = document.getElementById("btnangry2")
+const countangry2 = document.getElementById("countangry2")
 const btnLikes2 = document.getElementById("btnLike2")
 const countLikes2 = document.getElementById("countLikes2")
 const btnDislikes2 = document.getElementById("btnDislike2")
 const countDislikes2 = document.getElementById("countDislikes2")
 const btnHaha2 = document.getElementById("btnHaha2")
 const countHaha2 = document.getElementById("countHaha2")
-const btncare2 = document.getElementById("btncare2")
-const countcare2 = document.getElementById("countcare2")
-const btnangry2 = document.getElementById("btnangry2")
-const countangry2 = document.getElementById("countangry2")
-
 
 function clickLike1(){
   let totalLikes1 = parseInt(countLikes1.value) + 1
@@ -38,9 +37,17 @@ function clickcare1(){
   let totalcare1 = parseInt(countcare1.value) + 1
   countcare1.textContent = totalcare1.toString()
 }
+function clickcare2(){
+  let totalcare2 = parseInt(countcare2.value) + 1
+  countcare2.textContent = totalcare2.toString()
+}
 function clickangry1(){
   let totalangry1 = parseInt(countangry1.value) + 1
   countangry1.textContent = totalangry1.toString()
+}
+function clickangry2(){
+  let totalangry2 = parseInt(countangry2.value) + 1
+  countangry2.textContent = totalangry2.toString()
 }
 function clickLike2(){
   let totalLikes2 = parseInt(countLikes2.value) + 1
@@ -60,10 +67,7 @@ function clickcare2(){
   let totalcare2 = parseInt(countcare2.value) + 1
   countcare2.textContent = totalcare2.toString()
 }
-function clickangry2(){
-  let totalangry2 = parseInt(countangry2.value) + 1
-  countangry2.textContent = totalangry2.toString()
-}
+ 
 
 btnLike1.addEventListener("click",clickLike1)
 btnLike2.addEventListener("click",clickLike2)
