@@ -16,11 +16,11 @@ function clickLike2() {
   countLikes2.textContent = totalLikes2.toString()
 }
 
-function clicHAHA1() {
+function clickHAHA🤣1() {
   let totalHAHA1 = parseInt(counHAHA1.value) + 1
   countHAHA1.textContent = totalHAHA1.toString()
 }
-function clickHAHA2() {
+function clickHAHA🤣2() {
   let totalHAHA2 = parseInt(countHAHA2.value) + 1
   countHAHA2.textContent = totalHAHA2.toString()
 }
