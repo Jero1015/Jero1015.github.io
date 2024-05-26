@@ -3,9 +3,9 @@ const countLikes1 = document.getElementById("countLikes1")
 const btnLike2 = document.getElementById("btnLike2")
 const countLikes2 = document.getElementById("countLikes2")
 
-const btnHAHA1 = document.getElementById("btnHAHA1")
+const btnHAHA🤣1 = document.getElementById("btnHAHA🤣1")
 const countHAHA1 = document.getElementById("countHAHA1")
-const btnHAHA2 = document.getElementById("btnHAHA2")
+const btnHAHA🤣2 = document.getElementById("btnHAHA🤣2")
 const countHAHA2 = document.getElementById("countHAHA2")
 function clickLike1() {
   let totalLikes1 = parseInt(countLikes1.value) + 1
@@ -27,5 +27,5 @@ function clickHAHA2() {
 btnLike1.addEventListener("click",clickLike1)
 btnLike2.addEventListener("click",clickLike2)
 
-btnHAHA1.addEventListener("click",clickHAHA1)
-btnHAHA2.addEventListener("click",clickHAHA2)
+btnHAHA1.addEventListener("click",clickHAHA🤣1)
+btnHAHA2.addEventListener("click",clickHAHA🤣2)
