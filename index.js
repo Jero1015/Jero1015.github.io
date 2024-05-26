@@ -4,12 +4,20 @@ const btnDislikes1 = document.getElementById("btnDislike1")
 const countDislikes1 = document.getElementById("countDislikes1")
 const btnHaha1 = document.getElementById("btnHaha1")
 const countHaha1 = document.getElementById("countHaha1")
+const btncare1 = document.getElementById("btncare1")
+const countcare1 = document.getElementById("countcare1")
+const btnangry1 = document.getElementById("btnangry1")
+const countangry1 = document.getElementById("countangry1")
 const btnLikes2 = document.getElementById("btnLike2")
 const countLikes2 = document.getElementById("countLikes2")
 const btnDislikes2 = document.getElementById("btnDislike2")
 const countDislikes2 = document.getElementById("countDislikes2")
 const btnHaha2 = document.getElementById("btnHaha2")
 const countHaha2 = document.getElementById("countHaha2")
+const btncare2 = document.getElementById("btncare2")
+const countcare2 = document.getElementById("countcare2")
+const btnangry2 = document.getElementById("btnangry2")
+const countangry2 = document.getElementById("countangry2")
 
 
 function clickLike1(){
@@ -32,7 +40,7 @@ function clickcare1(){
 }
 function clickangry1(){
   let totalangry1 = parseInt(countangry1.value) + 1
-  countangry1.textContent = totalHaha1.toString()
+  countangry1.textContent = totalangry1.toString()
 }
 function clickLike2(){
   let totalLikes2 = parseInt(countLikes2.value) + 1
@@ -54,7 +62,7 @@ function clickcare2(){
 }
 function clickangry2(){
   let totalangry2 = parseInt(countangry2.value) + 1
-  countangry2.textContent = totalHaha2.toString()
+  countangry2.textContent = totalangry2.toString()
 }
 
 btnLike1.addEventListener("click",clickLike1)
