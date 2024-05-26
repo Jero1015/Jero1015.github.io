@@ -4,7 +4,7 @@ const btnLike2 = document.getElementById("btnLike2")
 const countLikes2 = document.getElementById("countLikes2")
 
 const btnDisLike1 = document.getElementById("btnDisLike1")
-const countDisLikes1 = document.getElementById("counDisLikes1")
+const countDisLikes1 = document.getElementById("countDisLikes1")
 const btnDisLike2 = document.getElementById("btnDisLike2")
 const countDisLikes2 = document.getElementById("countDisLikes2")
 function clickLike1() {
