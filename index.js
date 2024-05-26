@@ -8,8 +8,6 @@ const btncare1 = document.getElementById("btncare1")
 const countcare1 = document.getElementById("countcare1")
 const btnangry1 = document.getElementById("btnangry1")
 const countangry1 = document.getElementById("countangry1")
-const btnwow = document.getElementById("btnwow1")
-const countwow2 = document.getElementById("countwow1")
 const btnLikes2 = document.getElementById("btnLike2")
 const countLikes2 = document.getElementById("countLikes2")
 const btnDislikes2 = document.getElementById("btnDislike2")
@@ -20,9 +18,6 @@ const btncare2 = document.getElementById("btncare2")
 const countcare2 = document.getElementById("countcare2")
 const btnangry2 = document.getElementById("btnangry2")
 const countangry2 = document.getElementById("countangry2")
-const btnangry2 = document.getElementById("btnwow2")
-const countwow2 = document.getElementById("countwow2")
-
 function clickLike1(){
   let totalLikes1 = parseInt(countLikes1.value) + 1
   countLikes1.textContent = totalLikes1.toString()
@@ -44,11 +39,6 @@ function clickangry1(){
   let totalangry1 = parseInt(countangry1.value) + 1
   countangry1.textContent = totalangry1.toString()
 }
-function clickwow1(){
-  let totalwow1 = parseInt(countwow1.value) + 1
-  countwow1.textContent = totalwow1.toString()
-}
-
 function clickLike2(){
   let totalLikes2 = parseInt(countLikes2.value) + 1
   countLikes2.textContent = totalLikes2.toString()
@@ -70,12 +60,6 @@ function clickangry2(){
   let totalangry2 = parseInt(countangry2.value) + 1
   countangry2.textContent = totalangry2.toString()
 }
-function clickwow2(){
-  let totalwow2 = parseInt(countwow2.value) + 1
-  countwow2.textContent = totalwow2.toString()
-}
-
-
 btnLike1.addEventListener("click",clickLike1)
 btnLike2.addEventListener("click",clickLike2)
 btnDislike1.addEventListener("click",clickDislike1)
@@ -86,7 +70,3 @@ btncare1.addEventListener("click",clickcare1)
 btncare2.addEventListener("click",clickcare2)
 btnangry1.addEventListener("click",clickangry1)
 btnangry2.addEventListener("click",clickangry2)
-btnwow1.addEventListener("click",clickwow11)
-btnwow2.addEventListener("click",clickwow2)
-
-
