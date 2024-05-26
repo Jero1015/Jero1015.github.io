@@ -17,7 +17,7 @@ function clickLike2() {
 }
 
 function clickHAHA1() {
-  let totalHAHA1 = parseInt(counHAHA1.value) + 1
+  let totalHAHA1 = parseInt(countHAHA1.value) + 1
   countHAHA1.textContent = totalHAHA1.toString()
 }
 function clickHAHA2() {
