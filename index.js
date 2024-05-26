@@ -63,11 +63,7 @@ function clickHaha2(){
   let totalHaha2 = parseInt(countHaha2.value) + 1
   countHaha2.textContent = totalHaha2.toString()
 }
-function clickcare2(){
-  let totalcare2 = parseInt(countcare2.value) + 1
-  countcare2.textContent = totalcare2.toString()
-}
- 
+
 
 btnLike1.addEventListener("click",clickLike1)
 btnLike2.addEventListener("click",clickLike2)
