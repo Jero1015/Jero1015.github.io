@@ -4,10 +4,6 @@ const btnDislikes1 = document.getElementById("btnDislike1")
 const countDislikes1 = document.getElementById("countDislikes1")
 const btnHaha1 = document.getElementById("btnHaha1")
 const countHaha1 = document.getElementById("countHaha1")
-const btnwow1 = document.getElementById("btnwow1")
-const countwow1= document.getElementById("countwow1")
-const btnsad1 = document.getElementById("btnsad1")
-const countsad1 = document.getElementById("countsad1")
 const btncare1 = document.getElementById("btncare1")
 const countcare1 = document.getElementById("countcare1")
 const btnangry1 = document.getElementById("btnangry1")
@@ -18,10 +14,6 @@ const btnDislikes2 = document.getElementById("btnDislike2")
 const countDislikes2 = document.getElementById("countDislikes2")
 const btnHaha2 = document.getElementById("btnHaha2")
 const countHaha2 = document.getElementById("countHaha2")
-const btnwow2 = document.getElementById("btnwow2")
-const countwow2= document.getElementById("countwow2")
-const btnsad2 = document.getElementById("btnsad2")
-const countsad2 = document.getElementById("countsad2")
 const btncare2 = document.getElementById("btncare2")
 const countcare2 = document.getElementById("countcare2")
 const btnangry2 = document.getElementById("btnangry2")
@@ -37,15 +29,6 @@ function clickDislike1(){
 function clickHaha1(){
   let totalHaha1 = parseInt(countHaha1.value) + 1
   countHaha1.textContent = totalHaha1.toString()
-}
-function clickwow1(){
-  let totalwow1 = parseInt(countwow1.value) + 1
-  countwow1.textContent = totalwow1.toString()
-}
-
-function clicksad1(){
-  let totalsad1 = parseInt(countsad1.value) + 1
-  countsad1.textContent = totalsad1.toString()
 }
 
 function clickcare1(){
@@ -68,15 +51,6 @@ function clickHaha2(){
   let totalHaha2 = parseInt(countHaha2.value) + 1
   countHaha2.textContent = totalHaha2.toString()
 }
-function clickwow1(){
-  let totalwow2 = parseInt(countwow2.value) + 1
-  countwow2.textContent = totalwow2.toString()
-}
-
-function clicksad1(){
-  let totalsad2 = parseInt(countsad2.value) + 1
-  countsad2.textContent = totalsad2.toString()
-}
 
 function clickcare2(){
   let totalcare2 = parseInt(countcare2.value) + 1
@@ -92,11 +66,8 @@ btnDislike1.addEventListener("click",clickDislike1)
 btnDislike2.addEventListener("click",clickDislike2)
 btnHaha1.addEventListener("click",clickHaha1)
 btnHaha2.addEventListener("click",clickHaha2)
-btnwow1.addEventListener("click",clickwow1)
-btnwow2.addEventListener("click",clickwow2)
 btnsad1.addEventListener("click",clicksad1)
 btnsad2.addEventListener("click",clicksad2)
 btncare1.addEventListener("click",clickcare1)
 btncare2.addEventListener("click",clickcare2)
-btnangry1.addEventListener("click",clickangry1)
-btnangry2.addEventListener("click",clickangry2)
+
