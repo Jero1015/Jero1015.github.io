@@ -70,3 +70,15 @@ btncare1.addEventListener("click",clickcare1)
 btncare2.addEventListener("click",clickcare2)
 btnangry1.addEventListener("click",clickangry1)
 btnangry2.addEventListener("click",clickangry2)
+
+const submit document.getElementById("submit")
+
+const comment document.getElementById("comment")
+
+const commentbox document.getElementById("commentbox")
+
+function submitComment(){
+
+commentbox.textContent comment.value.toString() + "\n" }
+
+submit.addEventListener("click", submitComment)
