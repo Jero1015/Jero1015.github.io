@@ -26,7 +26,7 @@ const commentbox = document.getElementById("commentbox")
 function submitComment(){
   commentbox.textContent += comment.value.toString() + "\n"
 }
-submit.addEventListener("click", submitComment)
+
 
 function clickLike1(){
   let totalLikes1 = parseInt(countLikes1.value) + 1
@@ -80,5 +80,6 @@ btncare1.addEventListener("click",clickcare1)
 btncare2.addEventListener("click",clickcare2)
 btnangry1.addEventListener("click",clickangry1)
 btnangry2.addEventListener("click",clickangry2)
+submit.addEventListener("click", submitComment)
 
 
