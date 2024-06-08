@@ -19,18 +19,13 @@ const countcare2 = document.getElementById("countcare2")
 const btnangry2 = document.getElementById("btnangry2")
 const countangry2 = document.getElementById("countangry2")
 
-const submit document.getElementById("submit")
-
-const comment document.getElementById("comment")
-
-const commentbox document.getElementById("commentbox")
-
+const submit = document.getElementById("submit")
+const comment = document.getElementById("comment")
+const commentbox = document.getElementById("commentbox")
 function submitComment(){
-
-commentbox.textContent comment.value.toString() + "\n" }
-
+  commentbox.textContent += comment.value.toString() + "\n"
+}
 submit.addEventListener("click", submitComment)
-
 function clickLike1(){
   let totalLikes1 = parseInt(countLikes1.value) + 1
   countLikes1.textContent = totalLikes1.toString()
